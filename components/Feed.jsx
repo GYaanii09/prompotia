@@ -22,6 +22,10 @@ const Feed = () => {
   const [posts, setPosts] = useState([]);
 
 
+  const handleSearchChange = ()=>{
+    
+  }
+
   //Tut
   useEffect(()=>{
     const fetchPost = async()=>{
